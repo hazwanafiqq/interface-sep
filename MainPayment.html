@@ -42,11 +42,18 @@
                             <h3>Total payment: RM400</h3>
                         </div>
                     </div>
-                    <div style="position:absolute; bottom: 0px; width: 100%;" class="row">
-                        <div class="col-8">
-                            <div  class="mx-2 row position-bottom">
-                                <div class="col"> <button class="btn-success">Proceed to payment</button> </div>
-                                <div class="col"><button class="btn-danger">Cancel</button></div>
+                    <div class="row">
+                        <div class="col-9">
+                            <div  class="mx-1 row position-bottom">
+                                <div class="col-7">
+                                    <select style="width: 100%;" name="" id="">
+                                        <option value="none">-- Choose your payment method --</option>
+                                        <option value="online-banking">Online banking</option>
+                                        <option value="cod">Cash on delivery</option>
+                                    </select>
+                                </div>
+                                <div class="col-3"> <button class="btn-block btn-success">Proceed to payment</button> </div>
+                                <div class="col-2"><button class="btn-block btn-danger">Cancel</button></div>
                             </div>
                         </div>
                     </div>
