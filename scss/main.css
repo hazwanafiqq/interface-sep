@@ -21,6 +21,11 @@ img.logo {
   padding: 10px 10px 10px 0px;
 }
 
+table{
+  width: 100%;
+  border: 1px solid black;
+}
+
 .success-banner {
   width: 400em;
   height: 500px;
